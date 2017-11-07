@@ -1,0 +1,22 @@
+{
+  "name": "docker-compose-tp",
+  "version": "0.0.0",
+  "private": true,
+  "description": "dockerized application",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "6.2.x",
+    "npm": "3.10.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "express-session": "^1.15.2",
+    "mongoose": "^4.6.3",
+	"os": "latest"
+  }
+}
